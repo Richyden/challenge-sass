@@ -6,6 +6,14 @@ body{
 	color: $colorMain;
 	background-color: $backColor;
 
+
+	@for $i from 1 through 6 {
+	  .adv-item:nth-child(3n + #{$i}) {
+	    background-color: lighten($color_boucle, $i * 5%);
+	    color: lighten($colorMain, $i * 5%);
+	  }
+	}
+
 	.title{
 		color: $title_color;
 		text-align: center;

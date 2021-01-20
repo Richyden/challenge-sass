@@ -2,6 +2,24 @@ body {
   font: 100% Space Mono, monospace;
   color: #6b717f;
   background-color: #fff; }
+  body .adv-item:nth-child(3n + 1) {
+    background-color: #004080;
+    color: #777d8c; }
+  body .adv-item:nth-child(3n + 2) {
+    background-color: #004d99;
+    color: #858b98; }
+  body .adv-item:nth-child(3n + 3) {
+    background-color: #0059b3;
+    color: #9398a4; }
+  body .adv-item:nth-child(3n + 4) {
+    background-color: #0066cc;
+    color: #a1a5af; }
+  body .adv-item:nth-child(3n + 5) {
+    background-color: #0073e6;
+    color: #aeb2bb; }
+  body .adv-item:nth-child(3n + 6) {
+    background-color: #0080ff;
+    color: #bcbfc7; }
   body .title, body h1, body h2, body h3 {
     color: #BF4080;
     text-align: center; }
