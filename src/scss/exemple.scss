@@ -90,8 +90,8 @@ article{
 
 main{
 
-	padding-top: $padd / 0;
-	padding-bottom: $padd / 0;
+	padding-top: $padd - $padd;
+	padding-bottom: $padd - $padd;
 	.messages{
 		border: 1px solid $borderColor;
 		padding: $padd;
