@@ -1,0 +1,25 @@
+{
+  "name": "challenge-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "scss": "node-sass --watch src/scss -o src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richyden/challenge-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richyden/challenge-sass/issues"
+  },
+  "homepage": "https://github.com/Richyden/challenge-sass#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
