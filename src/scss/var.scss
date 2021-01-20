@@ -30,4 +30,15 @@ $orange: orange;
 
 // Padding
 
-$padd:
+$padd: 16px;
+
+
+// MIXIN BOX-SHADOW
+
+@mixin shadow($value){
+	-webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;
+}
+
+$shadow_color: #6b717f;

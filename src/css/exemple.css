@@ -7,7 +7,7 @@ body {
     text-align: center; }
   body h3 {
     font-size: 1.5em;
-    padding: 32px;
+    padding: 16px;
     margin-bottom: 0px; }
 
 article {
@@ -39,7 +39,7 @@ article {
       margin-bottom: 1.6em;
       max-width: 100%;
       overflow: auto;
-      padding: 1em 1.5em;
+      padding: 16px;
       display: block;
       word-wrap: break-word; }
       article section code.before {
@@ -49,17 +49,23 @@ article {
         float: right;
         width: 40%; }
 
-main .messages, main .messages .success, main .messages .error, main .messages .warning {
-  border: 1px solid #8C8C8C;
-  padding: 16px;
-  color: #fff; }
-  main .messages .success {
-    background-color: green; }
-  main .messages .error {
-    background-color: red; }
-    main .messages .error:hover {
+main {
+  padding-top: Infinity;
+  padding-bottom: Infinity; }
+  main .messages, main .messages .success, main .messages .error, main .messages .warning {
+    border: 1px solid #8C8C8C;
+    padding: 16px;
+    color: #fff; }
+    main .messages .success {
       background-color: green; }
-  main .messages .warning {
-    background-color: orange; }
+    main .messages .error {
+      background-color: red; }
+      main .messages .error:hover {
+        background-color: green; }
+    main .messages .warning {
+      background-color: orange; }
+
+footer h3 {
+  padding: 32px; }
 
 /*# sourceMappingURL=exemple.css.map */
